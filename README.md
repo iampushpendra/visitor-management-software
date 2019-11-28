@@ -1,4 +1,4 @@
-# Student-Directory
+# Visitor-Directory
 
 Edit email-id in app.py line no.50
 
