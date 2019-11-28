@@ -1,0 +1,25 @@
+<! DOCTYPE HTML>
+<html>
+<title>HomePage</title>
+</html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<form method="POST" action="">
+<h1>Visitor Check-In Form</h1>
+
+<p style="text-indent :5em;" > </p>
+    Visitor's Name  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<tr><input type="text" name="v_name" /></tr><br>
+    <br>
+    Visitor's Email-Id&nbsp&nbsp&nbsp&nbsp &nbsp<input type="text" name="v_email" />
+    <br><br>
+    Visitor's Mobile No. &nbsp<input type="text" name="v_no" />
+    <br><br><br>
+    Host's Name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="h_name" />
+    <br><br>
+    Host's Email-Id&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="h_email" />
+    <br><br>
+    Host's Mobile No.&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" name="h_no" />
+    <br><br>
+    <input type="submit">
+</form>
+<a href="{{ url_for('users')}}">See The Directory!</a>
